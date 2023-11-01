@@ -7,12 +7,21 @@
     tools:context=".MainActivity"
     android:id="@+id/activity_main">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/change_button"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        android:id="@+id/counter"
+        android:text="Counter"/>
+
+
     <Button
+        android:id="@+id/change_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CHANGE!"
-        android:id="@+id/change_button"
         android:layout_centerInParent="true"
-        />
+        android:text="START!" />
 
 </RelativeLayout>
